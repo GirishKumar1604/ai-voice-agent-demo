@@ -1,8 +1,19 @@
-.venv
-__pycache__
-/uploads
-*.pyc
-backend/venv
-backend/uploads
+# dependencies
+client/node_modules/
+server/node_modules/
+
+client/build/
+server/public/*.wav
+server/uploads/
+
+.env
+server/.env
+client/.env
+
+*.log
+.DS_Store
+
+client/package-lock.json
+server/package-lock.json
+
 api.txt
-backend/.env
